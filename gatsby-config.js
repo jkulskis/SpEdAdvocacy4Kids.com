@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Advocacy4Kids`,
+    title: `Advocacy 4 Kids`,
     description: `Providing Special Education Advocacy for children in MA.`,
     author: `@gatsbyjs`,
   },
