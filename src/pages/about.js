@@ -59,7 +59,7 @@ const AboutPage = ({ data }) => (
 
 export const query = graphql`
   {
-    portfolio_img: file(relativePath: { eq: "portfolio-image.jpg" }) {
+    portfolio_img: file(relativePath: { eq: "portfolio-image-blank.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => (
           </div>
           <div className="col col-11 col-md-6 pt-3">
             <div className="row mx-auto">
-              <p>
+              <p className="">
                 Assisting parents in understanding their children’s special
                 needs from the school perspective and how those needs can be
                 supported and serviced by the school to help your child reach

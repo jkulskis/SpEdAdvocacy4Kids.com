@@ -1,3 +1,5 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 :root {
   --mainBrown: #524546;
   --mainLightBrown: #894c16;
@@ -26,24 +28,23 @@ h6 {
 }
 
 h1 {
-  font-size: 5.0vmin;
+  font-size: 5vmin;
 }
 h2 {
-  font-size: 4.0vmin;
+  font-size: 4vmin;
 }
 h3 {
   font-size: 3.5vmin;
 }
 h4 {
-  font-size: 3.0vmin;
+  font-size: 3vmin;
 }
 h5 {
   font-size: 2.5vmin;
 }
 h6 {
-  font-size: 2.0vmin;
+  font-size: 2vmin;
 }
-
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
@@ -80,38 +81,52 @@ a {
   padding-right: 20px !important;
 }
 
-.default-background,
-.about-background,
-.contact-background {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  opacity: 1 !important;
-  background-position: center;
-  background-size: cover;
-}
-
-.default-background{
-  background: linear-gradient(rgba(17, 157, 204, 0.3), rgba(48, 72, 211, 0.3));
-  min-height: 55vh;
-  opacity: 1 !important;
-  background-position: center;
-  background-size: cover;
-}
-
 .index-bottom {
   background: white;
   /* background:linear-gradient(#d4e0e4, #ffffff); */
   /* background:linear-gradient(#5b86e5, #36D1DC); */
 }
 
-.about-background {
+.default-background,
+.about-background,
+.contact-background,
+.services-background,
+.testimonials-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.default-background {
+  min-height: 55vh;
+  background: linear-gradient(rgba(17, 157, 204, 0.3), rgba(48, 72, 211, 0.3));
+  opacity: 1 !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-background,
+.contact-background,
+.services-background {
   min-height: 60vh;
 }
-.contact-background {
-  min-height: 60vh;
+
+.services-background {
+  background-repeat: no-repeat !important;
+  background-position-x: center !important;
+  background: linear-gradient(rgba(30, 95, 38, 0.3), rgba(32, 87, 16, 0.3));
+  background-size: contain;
+  object-position: center top !important;
+}
+
+.testimonials-background {
+  min-height: 35vh;
+  background: linear-gradient(rgba(17, 157, 204, 0.3), rgba(48, 72, 211, 0.3));
+  opacity: 1 !important;
+  background-position: center;
+  background-size: cover;
 }
 
 .btn-yellow {
@@ -139,14 +154,17 @@ a {
   background: var(--mainGrey);
 }
 
-.bordered-image{
+.bordered-image {
   border-style: solid;
   border-width: 3px;
   border-color: black;
 }
 
-.title-bg{
-  background: linear-gradient(rgba(207, 216, 219, 0.6), rgba(113, 188, 211, 0.6));
+.title-bg {
+  background: linear-gradient(
+    rgba(207, 216, 219, 0.6),
+    rgba(113, 188, 211, 0.6)
+  );
   background-position: center;
   background-size: cover;
 }
@@ -154,4 +172,22 @@ a {
 .required-field::after {
   content: " *";
   color: red;
+}
+
+.table {
+  margin: 0 auto !important;
+}
+
+.service-name-col {
+  width: 35%;
+  text-align: center;
+}
+
+.service-descr-col {
+  width: 65%;
+}
+
+.blockquote::before {
+  font-family: FontAwesome;
+  content: '\f10d'; /*quote left icon*/
 }

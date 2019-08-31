@@ -4,20 +4,13 @@ import Contact from "../components/Contact/Contact"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaPoop } from "react-icons/fa"
+import { FaSmileBeam } from "react-icons/fa"
 
 const HelpfulPage = ({ data }) => (
   <Layout>
     <SEO title="Helpful Info" />
     <div className="row">
-     <td>
-     <h1 className="py-5 pl-5 text-center mx-auto">
-        As of Now, We provide no helpful info whatsoever
-      </h1>
-     </td>
-     <td>
-     <FaPoop className="mx-auto" size="100"/>
-     </td>
+      <h1 className="py-5 pl-5 text-center mx-auto">Coming Soon <FaSmileBeam /></h1>
     </div>
   </Layout>
 )

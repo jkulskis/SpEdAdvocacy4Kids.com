@@ -1,26 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
-import Contact from "../components/Contact/Contact"
+import TestimonialsV3 from '../components/Testimonials/testimonialsV3'
 
 import Layout from "../components/layout"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import SEO from "../components/seo"
+import testimonialsV3 from "../components/Testimonials/testimonialsV3";
 
 const ContactPage = ({ data }) => (
   <Layout>
     <SEO title="Contact" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      styleClass="contact-background"
+      styleClass="testimonials-background"
     />
-    <h4 className="mx-auto col-11 text-center pt-5">You can reach Margie at 617-548-6024 by call or text, or by using the form below</h4>
-    <Contact />
+    <TestimonialsV3 />
   </Layout>
 )
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "contact-background.jpg" }) {
+    img: file(relativePath: { eq: "book-background.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
