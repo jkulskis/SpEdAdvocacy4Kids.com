@@ -20,11 +20,14 @@ const IndexPage = ({ data }) => (
     <div className="index-bottom pb-5 pt-3 mx-auto">
       <div className="container">
         <div className="row mx-auto">
-          <h1 className="mx-auto text-center">Advocacy 4 Kids</h1>
+          <h1 className="mx-auto text-center">
+            Special Education Advocacy 4 Kids
+          </h1>
         </div>
         <div className="row mx-auto">
           <h4 className="mx-auto text-center">
-            Providing advocacy for children ages 3-18
+            Providing Special Education Advocacy for Children ages 3-18 in
+            Massachusetts
           </h4>
         </div>
         <div className="row mx-auto pt-3 my-auto">
@@ -40,7 +43,7 @@ const IndexPage = ({ data }) => (
                 Assisting parents in understanding their children’s special
                 needs from the school perspective and how those needs can be
                 supported and serviced by the school to help your child reach
-                their full potential
+                their full potential.
               </p>
             </div>
             <div className="row mx-auto">

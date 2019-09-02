@@ -1,4 +1,5 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Gentium+Basic&display=swap");
 
 :root {
   --mainBrown: #524546;
@@ -23,14 +24,15 @@
 }
 
 html {
-  height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-  height: 100%;
+  font-family: 'Gentium Basic', serif !important;
+  margin-bottom: 60px;
 }
 h1,
 h2,
@@ -38,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: 'Cinzel', serif !important;
   letter-spacing: 0.25rem !important;
 }
 
@@ -62,7 +64,7 @@ h6 {
 } */
 
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: 'Gentium Basic', serif !important;
   /* font-size: 2vmin; */
 }
 
@@ -156,7 +158,10 @@ a {
 
 .footer {
   background: var(--mainLightBlue);
-  position: "sticky";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   bottom: 0;
 }
 
