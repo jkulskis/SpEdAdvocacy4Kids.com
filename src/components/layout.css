@@ -1,4 +1,4 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 :root {
   --mainBrown: #524546;
@@ -12,10 +12,25 @@
   --mainPeach: #ffcba4;
 }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+html {
+  height: 100%;
+}
+
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  height: 100%;
 }
 h1,
 h2,
@@ -100,7 +115,7 @@ a {
 }
 
 .default-background {
-  min-height: 55vh;
+  min-height: 40vh;
   background: linear-gradient(rgba(17, 157, 204, 0.3), rgba(48, 72, 211, 0.3));
   opacity: 1 !important;
   background-position: center;
@@ -116,9 +131,9 @@ a {
 .services-background {
   background-repeat: no-repeat !important;
   background-position-x: center !important;
-  background: linear-gradient(rgba(30, 95, 38, 0.3), rgba(32, 87, 16, 0.3));
+
+  /* background: linear-gradient(rgba(30, 95, 38, 0.3), rgba(32, 87, 16, 0.3)); */
   background-size: contain;
-  object-position: center top !important;
 }
 
 .testimonials-background {
@@ -141,6 +156,8 @@ a {
 
 .footer {
   background: var(--mainLightBlue);
+  position: "sticky";
+  bottom: 0;
 }
 
 .header {
@@ -187,12 +204,21 @@ a {
   width: 65%;
 }
 
+.half-col-middle {
+  width: 50%;
+  text-align: center;
+}
+
 .blockquote::before {
-  font-family: FontAwesome;
-  content: '\f10d\2003'; /*quote left icon*/
+  /*quote left icon*/
+  /* font-family: FontAwesome; */
+  /* content: '\f10d\2003'; */
+  content: '"';
 }
 
 .blockquote::after {
-  font-family: FontAwesome;
-  content: '\2003\f10e'; /*quote right icon*/
+  /*quote right icon*/
+  /* font-family: FontAwesome;
+  content: '\2003\f10e'; */
+  content: '"';
 }
