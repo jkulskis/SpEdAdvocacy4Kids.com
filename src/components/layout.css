@@ -27,7 +27,7 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 
-h1 {
+/* h1 {
   font-size: 5vmin;
 }
 h2 {
@@ -44,7 +44,7 @@ h5 {
 }
 h6 {
   font-size: 2vmin;
-}
+} */
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
@@ -189,5 +189,10 @@ a {
 
 .blockquote::before {
   font-family: FontAwesome;
-  content: '\f10d'; /*quote left icon*/
+  content: '\f10d\2003'; /*quote left icon*/
+}
+
+.blockquote::after {
+  font-family: FontAwesome;
+  content: '\2003\f10e'; /*quote right icon*/
 }

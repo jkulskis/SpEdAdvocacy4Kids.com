@@ -9,7 +9,7 @@ import testimonialsV3 from "../components/Testimonials/testimonialsV3";
 
 const ContactPage = ({ data }) => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Testimonials" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       styleClass="testimonials-background"
