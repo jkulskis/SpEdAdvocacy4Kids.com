@@ -129,10 +129,10 @@ a {
 }
 
 .services-background {
+  height: auto;
   background-repeat: no-repeat !important;
   background-position-x: center !important;
-
-  /* background: linear-gradient(rgba(30, 95, 38, 0.3), rgba(32, 87, 16, 0.3)); */
+  background-position: top; 
   background-size: contain;
 }
 

@@ -18,14 +18,10 @@ import Footer from "./Globals/Footer"
 const Layout = ({ children }) => {
   return (
     <>
-      <html class="Site">
-        <main class="Site-content">
-          {/* <Header /> */}
-          <Navbar />
-          {children}
-          <Footer />
-        </main>
-      </html>
+      {/* <Header /> */}
+      <Navbar />
+      {children}
+      <Footer />
     </>
   )
 }
