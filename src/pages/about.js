@@ -18,7 +18,7 @@ const AboutPage = ({ data }) => (
           />
         </div>
         <div className="col-11 col-md-8 my-3 mx-auto">
-          <h3 className="pb-2">Margaret Mikulskis</h3>
+          <h3 className="pb-2">Margie Mikulskis</h3>
           <p>
             I trained as an advocate at the Federation for Children with Special
             Needs, and have worked in urban and suburban school communities to
