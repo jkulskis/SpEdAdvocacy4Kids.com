@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Advocacy 4 Kids`,
+    siteUrl: `https://SpEdAdvocacy4Kids.com/`,
     description: `Providing Special Education Advocacy for children in MA.`,
     author: `@gatsbyjs`,
   },
@@ -13,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
