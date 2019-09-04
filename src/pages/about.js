@@ -64,7 +64,7 @@ export const query = graphql`
     portfolio_img: file(relativePath: { eq: "portfolio-image-cropped.png" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }

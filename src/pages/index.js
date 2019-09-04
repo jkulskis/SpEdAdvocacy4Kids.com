@@ -72,7 +72,7 @@ export const query = graphql`
     hands_img: file(relativePath: { eq: "holding-hands.jpg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }

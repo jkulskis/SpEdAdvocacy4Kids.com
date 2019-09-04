@@ -37,7 +37,7 @@ export const query = graphql`
     img: file(relativePath: { eq: "time-for-change.jpg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
