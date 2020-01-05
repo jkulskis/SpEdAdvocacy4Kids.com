@@ -21,13 +21,14 @@ const AboutPage = ({ data }) => (
           <h3 className="pb-2">Margie Mikulskis</h3>
           <p>
             I trained as an advocate at the Federation for Children with Special
-            Needs, and have worked in urban and suburban school communities to
+            Needs, and have worked in urban and suburban school districts to
             advocate for a diverse population of students with disabilities. I
             completed the ISEA at William and Mary Law School in 2019, and
             continue to volunteer at the Federation for Children with Special
-            Needs. I’m a Board Member of SPaN (Special Needs Advocacy Network)
-            and member of COPAA. I hold a M.Ed. from Lesley College and B.A.
-            from Boston College.
+            Needs Helpline, and advocate pro bono for some DDS cases. I’m a
+            Board Member of SPaN (Special Needs Advocacy Network) and member of
+            COPAA. I hold a M.Ed. from Lesley College and B.A. from Boston
+            College.
             <br />
             <br />
             Each case I work on is a priority for me and I dedicate my time and
@@ -44,14 +45,13 @@ const AboutPage = ({ data }) => (
             <br />I enjoy helping families find ways to better support their
             children in their school and community. I know how challenging it
             can be for parents, as I have been in tough situations myself with
-            my child with special needs. The journey through the special
-            education world can be difficult. I'm glad to share my knowledge and
-            experience with other parents to help them navigate the system. I
-            often think back to my advocate and mentor who turned around my
+            my own child with special needs. The journey through the special
+            education world can be difficult, and I'm glad to share my knowledge
+            and experience with other parents to help them navigate the system.
+            I often think back to my advocate and mentor who turned around my
             daughter’s life, while empowering me to understand how to
             successfully advocate as a parent. She suggested that I become an
-            advocate. I took her up on that and often think of her as I continue
-            in her footsteps.
+            advocate, and I often think of her as I continue in her footsteps.
           </p>
         </div>
       </div>

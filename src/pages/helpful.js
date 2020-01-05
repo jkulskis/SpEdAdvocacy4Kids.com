@@ -65,6 +65,12 @@ const HelpfulPage = ({ data }) => (
           <a href="http://www.aane.org/" target="_blank">aane.org</a>
           </td>
         </tr>
+        <tr>
+          <td className="half-col-middle">Massachusetts Advocates for Children</td>
+          <td className="half-col-middle">
+          <a href="https://massadvocates.org/" target="_blank">massadvocates.org</a>
+          </td>
+        </tr>
       </tbody>
     </table>
   </Layout>
