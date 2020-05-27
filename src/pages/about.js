@@ -20,38 +20,49 @@ const AboutPage = ({ data }) => (
         <div className="col-11 col-md-8 my-3 mx-auto">
           <h3 className="pb-2">Margie Mikulskis</h3>
           <p>
-            I trained as an advocate at the Federation for Children with Special
-            Needs, and have worked in urban and suburban school districts to
-            advocate for a diverse population of students with disabilities. I
-            completed the ISEA at William and Mary Law School in 2019, and
-            continue to volunteer at the Federation for Children with Special
-            Needs Helpline, and advocate pro bono for some DDS cases. I’m a
-            Board Member of SPaN (Special Needs Advocacy Network) and member of
-            COPAA. I hold a M.Ed. from Lesley College and B.A. from Boston
-            College.
-            <br />
-            <br />
-            Each case I work on is a priority for me and I dedicate my time and
+            Margie is a professional advocate and educational consultant,
+            helping families and their children with special needs to obtain the
+            services and individualized instruction necessary for them to make
+            effective progress in school. She has experience working with a wide
+            range of disabilities, and specializes in autism, language-based
+            learning challenges and ADHD.
+          </p>
+          <p>
+            Margie is a Board Member of SPaN (Special Needs Advocacy Network),
+            member of COPAA (Council of Parent Advocates and Attorneys) and a
+            graduate of the Advocacy Program at William and Mary Law School. She
+            stays up-to-date with special education regulations and takes
+            professional development coursework throughout the year. She
+            advocates in the Boston Medical Center EASE Clinic, volunteers at
+            the Federation for Children with Special Needs Phone Center, and
+            takes on complicated DDS cases through BAMSI.
+          </p>
+          <p>
+            She holds an M.Ed. from Lesley College and B.A. from Boston College.
+          </p>
+          <p>
+            “Each case I work on is a priority for me and I dedicate my time and
             attention to understanding the student’s disability and needs by
             analyzing school reports, IEPs, 504s, and evaluations, as well as
             understanding the concerns and goals of the parents. I support
             parents by being there for them and following through, participating
             in school and IEP meetings and acting as their second voice to speak
-            up for them and their child to the school district. I work with
-            school personnel in a collaborative way, treating all those involved
-            with dignity and respect, while working towards the best possible
-            outcome for the child.
-            <br />
-            <br />I enjoy helping families find ways to better support their
-            children in their school and community. I know how challenging it
-            can be for parents, as I have been in tough situations myself with
-            my own child with special needs. The journey through the special
-            education world can be difficult, and I'm glad to share my knowledge
-            and experience with other parents to help them navigate the system.
-            I often think back to my advocate and mentor who turned around my
-            daughter’s life, while empowering me to understand how to
-            successfully advocate as a parent. She suggested that I become an
-            advocate, and I often think of her as I continue in her footsteps.
+            up for them at school meetings and draft written correspondence with
+            school districts. I work with school personnel in a collaborative
+            way, treating all those involved with dignity and respect, while
+            working towards the best possible outcome for the child.”
+          </p>
+          <p>
+            “I know how challenging it can be for a parent to advocate for a
+            child with special needs, as I have been there myself. The journey
+            through the special education world can be difficult, and I'm glad
+            to share my knowledge and expertise with other parents to help them
+            navigate the process. I often think back to my own advocate and
+            mentor who turned around my daughter’s life, while empowering me to
+            understand how to successfully advocate for my child. She suggested
+            that I become an advocate, which prompted me to train as a
+            professional advocate. I often think of her as I continue in her
+            footsteps.”
           </p>
         </div>
       </div>

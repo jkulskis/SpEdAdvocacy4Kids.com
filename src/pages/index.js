@@ -26,8 +26,8 @@ const IndexPage = ({ data }) => (
         </div>
         <div className="row mx-auto">
           <h4 className="mx-auto text-center">
-            Providing Special Education Advocacy for Children ages 3-18 in
-            Massachusetts
+            Providing Special Education Advocacy for Children and Young Adults
+            ages 3-22 in Massachusetts
           </h4>
         </div>
         <div className="row mx-auto pt-3 my-auto">
@@ -40,10 +40,8 @@ const IndexPage = ({ data }) => (
           <div className="col col-11 col-md-6 pt-3 mx-auto">
             <div className="row mx-auto">
               <p>
-                Assisting parents in understanding their child’s special needs
-                from the school perspective and how those needs can be supported
-                and serviced by the school district to help their child reach
-                their full potential.
+                Learn how to navigate the special education process with a
+                professional, supportive Advocate by your side.
               </p>
             </div>
             <div className="row mx-auto">

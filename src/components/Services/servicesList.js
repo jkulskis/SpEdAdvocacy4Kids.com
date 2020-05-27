@@ -17,33 +17,33 @@ export default function servicesList() {
         <tr>
           <td className="service-name-col">Intake Phone Call or Email</td>
           <td className="service-descr-col">
-            Free 30 minute Consultation Phone Call. Contact Margie with your
-            questions or concerns about your child's current program and decide
-            if you would like to proceed with a Records Review.
+            Free 30 minute Consultation Phone Call. Discuss your questions or
+            concerns regarding your child's current program and decide if you
+            would like to work with an advocate.
           </td>
         </tr>
         <tr>
           <td className="service-name-col">Records Review</td>
           <td className="service-descr-col">
-            Margie will review all of your child’s documentation (IEP’s, 504’s,
-            School, Academic and Medical Testing records) and have a in
-            preparation for initial meeting with parent.
+            Review of all of your child’s documentation (IEP’s, 504’s, School
+            Academic and Achievement Testing, IHP, etc.)
           </td>
         </tr>
         <tr>
           <td className="service-name-col">Initial Meeting (In Person)</td>
           <td className="service-descr-col">
-            The first planning meeting is in person. Together, we will begin
-            prioritizing the issues and creating a plan for moving forward.
+            The first planning meeting can be in person or remotely via Zoom.
+            Margie will explain your child’s school reports and evaluations.
+            Together, we will prioritize the issues and create a plan for moving
+            forward.
           </td>
         </tr>
         <tr>
           <td className="service-name-col">IEP Team Meetings</td>
           <td className="service-descr-col">
-            Make the most out of Team Meetings with Margie there to help you
-            communicate to the Team your concerns and child’s needs while
-            collaboratively improving the IEP. Learn how to navigate the special
-            education process with Margie by your side.
+            Make the most out of Team Meetings. Margie will help you communicate
+            your concerns with the Team while collaborating to improve their IEP
+            or 504 or help in finding eligibility.
           </td>
         </tr>
         <tr>
@@ -57,11 +57,18 @@ export default function servicesList() {
           </td>
         </tr>
         <tr>
+          <td className="service-name-col">Correspondence with School</td>
+          <td className="service-descr-col">
+            Margie will write formal letters requesting school records and
+            addressing issues as they arise.
+          </td>
+        </tr>
+        <tr>
           <td className="service-name-col">Mediation</td>
           <td className="service-descr-col">
-            When districts and parents can not agree on the best programming for
-            a student, mediation can be a very powerful tool. Margie can support
-            you through this process as well. 
+            When districts and parents cannot agree on the best programming for
+            a student, mediation can be a powerful tool. Margie can support you
+            through this process.
           </td>
         </tr>
       </tbody>
