@@ -15,6 +15,12 @@ import Header from "./Globals/Header"
 import Navbar from "./Globals/Navbar"
 import Footer from "./Globals/Footer"
 
+const LogRocket = require('logrocket/setup')({
+  sdkServer: 'https://sungbean.com',
+  ingestServer: 'https://sungbean.com'
+});
+LogRocket.init('tf13-test/margies-website');
+
 const Layout = ({ children }) => {
   return (
     <>
