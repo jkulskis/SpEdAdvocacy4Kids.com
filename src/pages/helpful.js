@@ -54,12 +54,6 @@ const HelpfulPage = ({ data }) => (
           </td>
         </tr>
         <tr>
-          <td className="half-col-middle">Autism Speaks</td>
-          <td className="half-col-middle">
-          <a href="http://www.autismspeaks.org/" target="_blank">autismspeaks.org</a>
-          </td>
-        </tr>
-        <tr>
           <td className="half-col-middle">AANE (Asperger/Autism Network)</td>
           <td className="half-col-middle">
           <a href="http://www.aane.org/" target="_blank">aane.org</a>

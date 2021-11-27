@@ -18,27 +18,37 @@ const AboutPage = ({ data }) => (
           />
         </div>
         <div className="col-11 col-md-8 my-3 mx-auto">
-          <h3 className="pb-2">Margie Mikulskis</h3>
+          <h3 className="pb-2">Margie Mikulskis, M.Ed.</h3>
+          <p>
+            <strong>COPAA SEAT II Graduate</strong> (Council of Parent Attorneys and
+            Advocates-Special Education Advocate Training II) and COPAA Member
+          </p>
+          <p>
+            <strong>Massachusetts Advocates for Children,</strong> Practicum 
+          </p>
+          <p>
+            <strong>William and Mary Law School</strong> Special Education Advocacy Certificate Program
+          </p>
+          <p>
+            <strong>SPAN</strong> (Special Needs Advocacy Network) Board Member, 20+ CEs
+          </p>
+          <p>
+            <strong>Boston Medical Center</strong> Ease Clinic Volunteer
+          </p>
+          <p>
+            <strong>Federation for Children with Special Needs</strong> Training and Internship
+          </p>
+          <p>
+            <strong>Lesley College, M.Ed</strong>
+          </p>
+          <p>
+            <strong>Boston College, B.A.</strong>
+          </p>
           <p>
             Margie is a professional advocate and educational consultant,
             helping families and their children with special needs to obtain the
-            services and individualized instruction necessary for them to make
-            effective progress in school. She has experience working with a wide
-            range of disabilities, and specializes in autism, language-based
-            learning challenges and ADHD.
-          </p>
-          <p>
-            Margie is a Board Member of SPaN (Special Needs Advocacy Network),
-            member of COPAA (Council of Parent Advocates and Attorneys) and a
-            graduate of the Advocacy Program at William and Mary Law School. She
-            stays up-to-date with special education regulations and takes
-            professional development coursework throughout the year. She
-            advocates in the Boston Medical Center EASE Clinic, volunteers at
-            the Federation for Children with Special Needs Phone Center, and
-            takes on complicated DDS cases through BAMSI.
-          </p>
-          <p>
-            She holds an M.Ed. from Lesley College and B.A. from Boston College.
+            services and individualized instruction necessary to meet their
+            unique needs and make effective progress in school.
           </p>
           <p>
             “Each case I work on is a priority for me and I dedicate my time and
@@ -55,9 +65,9 @@ const AboutPage = ({ data }) => (
           <p>
             “I know how challenging it can be for a parent to advocate for a
             child with special needs, as I have been there myself. The journey
-            through the special education world can be difficult, and I'm glad
-            to share my knowledge and expertise with other parents to help them
-            navigate the process. I often think back to my own advocate and
+            through the special education world can be difficult, and I&#39;m
+            glad to share my knowledge and expertise with other parents to help
+            them navigate the process. I often think back to my own advocate and
             mentor who turned around my daughter’s life, while empowering me to
             understand how to successfully advocate for my child. She suggested
             that I become an advocate, which prompted me to train as a

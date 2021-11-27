@@ -17,7 +17,7 @@ export default function servicesList() {
         <tr>
           <td className="service-name-col">Intake Phone Call or Email</td>
           <td className="service-descr-col">
-            Free 30 minute Consultation Phone Call. Discuss your questions or
+            Free 20 minute Consultation Phone Call. Discuss your questions or
             concerns regarding your child's current program and decide if you
             would like to work with an advocate.
           </td>
