@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-import Contact from "../components/Contact/Contact"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaSmileBeam } from "react-icons/fa"
 
 const HelpfulPage = ({ data }) => (
   <Layout>
