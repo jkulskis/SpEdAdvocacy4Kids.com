@@ -18,6 +18,9 @@ const AboutPage = ({ data }) => (
         <div className="col-11 col-md-8 my-3 mx-auto">
           <h3 className="pb-2">Margie Mikulskis, M.Ed.</h3>
           <p>
+            <strong>SESP, Special Education Surrogate Parent</strong> Volunteer as special education decision-maker for a student in state DCF custody 
+          </p>
+          <p>
             <strong>COPAA SEAT II Graduate</strong> (Council of Parent Attorneys and
             Advocates-Special Education Advocate Training II) and COPAA Member
           </p>

@@ -77,8 +77,12 @@ export default function testimonialsV3() {
                 they will be in great hands.
               </i>
             </p>
-            <h5 className="font-weight-bold blue-text my-3">-- Attorney Karen Michel</h5>
-            <h6 className="blue-text my-3">Legal Services Fellow at South Coast Counties Legal Services, Inc</h6>
+            <h5 className="font-weight-bold blue-text my-3">
+              -- Attorney Karen Michel
+            </h5>
+            <h6 className="blue-text my-3">
+              Legal Services Fellow at South Coast Counties Legal Services, Inc
+            </h6>
           </div>
         </div>
         <div className="col-md-4 mb-md-0 mb-5 mx-auto">
@@ -117,7 +121,52 @@ export default function testimonialsV3() {
             </h5>
           </div>
         </div>
+        <div className="col-md-4 mb-md-0 mb-5 mx-auto">
+          <div className="testimonial">
+            <p className="font-weight-normal dark-grey-text">
+              <i className="blockquote pr-2">
+                We highly recommend working with Margie. My daughter was
+                struggling in every aspect with Malden public schools. With
+                Margie’s professionalism and knowledge in special education
+                system, she helped us to get the right placement for our
+                daughter. We appreciate her efforts and supports. She cares and
+                she listens to us, she understands what we need and our
+                daughter’s needs. We would not be able to obtain all these
+                services and resources without her. We are so glad that our
+                daughter is now making progress in the right setting. We are so
+                relieved now. We 100% trust Margie as our special education
+                advocate!
+              </i>
+            </p>
+            <h5 className="font-weight-bold blue-text my-3">
+              Janice and Stanley Law
+            </h5>
+            <h6 className="blue-text my-3">Malden Parents</h6>
+          </div>
+        </div>
       </div>
+      <div className="row text-center pb-5">
+          <div className="col-md-4 mb-md-0 mb-5 mx-auto">
+            <div className="testimonial">
+              <p className="font-weight-normal dark-grey-text">
+                <i className="blockquote pr-2">
+                  Margie has been essential in helping our family navigate the
+                  education system for our special needs teenager. Not only is
+                  she extremely personable and understanding of the aspirations
+                  that we have for our child, but she is able to take our
+                  concerns and present them to the appropriate parties to
+                  positively help our child's learning experience. She is always
+                  professional, responsive, and very knowledgeable about the
+                  special education system. Highly recommend!
+                </i>
+              </p>
+              <h5 className="font-weight-bold blue-text my-3">
+                Kaushik and Nita Patel
+              </h5>
+              <h6 className="blue-text my-3">Burlington Parents</h6>
+            </div>
+          </div>
+        </div>
     </section>
   )
 }
