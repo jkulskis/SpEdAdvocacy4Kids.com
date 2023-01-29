@@ -228,3 +228,12 @@ a {
   content: '\2003\f10e'; */
   content: '"';
 }
+
+.aboutHeaderTitle {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.aboutHeaderInfo {
+  font-size: 1em;
+}

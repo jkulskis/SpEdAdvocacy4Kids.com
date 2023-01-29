@@ -4,6 +4,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 
+const AboutHeader = ({ title, info }) => (
+  <div className="aboutHeader">
+    <span className="aboutHeaderTitle">{title}</span>
+    <span className="aboutHeaderInfo"> {info}</span>
+  </div>
+)
+
 const AboutPage = ({ data }) => (
   <Layout>
     <SEO title="About" />
@@ -17,34 +24,49 @@ const AboutPage = ({ data }) => (
         </div>
         <div className="col-11 col-md-8 my-3 mx-auto">
           <h3 className="pb-2">Margie Mikulskis, M.Ed.</h3>
-          <p>
-            <strong>SESP, Special Education Surrogate Parent</strong> Volunteer as special education decision-maker for a student in state DCF custody 
-          </p>
-          <p>
-            <strong>COPAA SEAT II Graduate</strong> (Council of Parent Attorneys and
-            Advocates-Special Education Advocate Training II) and COPAA Member
-          </p>
-          <p>
-            <strong>Massachusetts Advocates for Children,</strong> Practicum 
-          </p>
-          <p>
-            <strong>William and Mary Law School</strong> Special Education Advocacy Certificate Program
-          </p>
-          <p>
-            <strong>SPAN</strong> (Special Needs Advocacy Network) Board Member, 20+ CEs
-          </p>
-          <p>
-            <strong>Boston Medical Center</strong> Ease Clinic Volunteer
-          </p>
-          <p>
-            <strong>Federation for Children with Special Needs</strong> Training and Internship
-          </p>
-          <p>
-            <strong>Lesley College, M.Ed</strong>
-          </p>
-          <p>
-            <strong>Boston College, B.A.</strong>
-          </p>
+          <AboutHeader
+            title="SESP, Special Education Surrogate Parent"
+            info="Volunteer
+            as special education decision-maker for a student in state DCF
+            custody"
+          />
+          <AboutHeader
+            title="COPAA SEAT II Graduate"
+            info="(Council of Parent Attorneys
+            and Advocates-Special Education Advocate Training II) and COPAA
+            Member"
+          />
+          <AboutHeader
+            title="Massachusetts Advocates for Children"
+            info="Volunteer
+            Advocate for Helpline and Intensive Technical Assistance Casework,
+            2021- Present"
+          />
+          <AboutHeader
+            title="William and Mary Law School"
+            info="Graduate of Special
+            Education Advocacy Certificate Program, 2019"
+          />
+          <AboutHeader
+            title="SPAN"
+            info="(Special Needs Advocacy Network) Member"
+          />
+          <AboutHeader
+            title="Boston Medical Center"
+            info="Ease Clinic Volunteer, 2020"
+          />
+          <AboutHeader
+            title="Federation for Children with Special Needs"
+            info="Training and Internship, 2016"
+          />
+          <AboutHeader
+            title="Lesley College, M.Ed"
+            info=""
+          />
+          <AboutHeader
+            title="Boston College, B.A."
+            info=""
+          />
           <p>
             Margie is a professional advocate and educational consultant,
             helping families and their children with special needs to obtain the
