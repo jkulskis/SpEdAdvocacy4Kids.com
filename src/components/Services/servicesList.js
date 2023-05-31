@@ -30,7 +30,7 @@ export default function servicesList() {
           </td>
         </tr>
         <tr>
-          <td className="service-name-col">Initial Meeting (In Person)</td>
+          <td className="service-name-col">Initial Meeting (By Zoom)</td>
           <td className="service-descr-col">
             The first planning meeting can be in person or remotely via Zoom.
             Margie will explain your child’s school reports and evaluations.

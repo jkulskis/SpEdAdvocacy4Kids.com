@@ -106,19 +106,16 @@ export default function testimonialsV3() {
           <div className="testimonial">
             <p className="font-weight-normal dark-grey-text">
               <i className="blockquote pr-2">
-                We were having difficulty with our daughter in the Belmont
-                Public Schools.  Margie used her advocacy skills to ensure our
-                daughter get the correct services.  She helped us to find the
-                right expert to evaluate our daughter and obtain an IEP from the
-                school.  She worked with our Team to build attainable IEP
-                goals.  She introduced us to many useful resources.  Margie is
-                an inspriation to me.  She really cares.  It isn't just a job
-                for her.
+                Margie, I want to thank you very much for supporting me and
+                being there when I needed to defend Luis' rights, but even more
+                I want to thank you with all my heart for having listened to me,
+                always and eternally I will be grateful for your great vocation
+                and work that you do every day for each of the families that
+                need it.
               </i>
             </p>
-            <h5 className="font-weight-bold blue-text my-3">
-              -- Belmont High School Parent
-            </h5>
+            <h5 className="font-weight-bold blue-text my-3">-- Yuley Gomez</h5>
+            <h6 className="blue-text my-3">Needham Parent</h6>
           </div>
         </div>
         <div className="col-md-4 mb-md-0 mb-5 mx-auto">
@@ -146,27 +143,46 @@ export default function testimonialsV3() {
         </div>
       </div>
       <div className="row text-center pb-5">
-          <div className="col-md-4 mb-md-0 mb-5 mx-auto">
-            <div className="testimonial">
-              <p className="font-weight-normal dark-grey-text">
-                <i className="blockquote pr-2">
-                  Margie has been essential in helping our family navigate the
-                  education system for our special needs teenager. Not only is
-                  she extremely personable and understanding of the aspirations
-                  that we have for our child, but she is able to take our
-                  concerns and present them to the appropriate parties to
-                  positively help our child's learning experience. She is always
-                  professional, responsive, and very knowledgeable about the
-                  special education system. Highly recommend!
-                </i>
-              </p>
-              <h5 className="font-weight-bold blue-text my-3">
-                Kaushik and Nita Patel
-              </h5>
-              <h6 className="blue-text my-3">Burlington Parents</h6>
-            </div>
+        <div className="col-md-4 mb-md-0 mb-5 mx-auto">
+          <div className="testimonial">
+            <p className="font-weight-normal dark-grey-text">
+              <i className="blockquote pr-2">
+                Margie has been essential in helping our family navigate the
+                education system for our special needs teenager. Not only is she
+                extremely personable and understanding of the aspirations that
+                we have for our child, but she is able to take our concerns and
+                present them to the appropriate parties to positively help our
+                child's learning experience. She is always professional,
+                responsive, and very knowledgeable about the special education
+                system. Highly recommend!
+              </i>
+            </p>
+            <h5 className="font-weight-bold blue-text my-3">
+              Kaushik and Nita Patel
+            </h5>
+            <h6 className="blue-text my-3">Burlington Parents</h6>
           </div>
         </div>
+        <div className="col-md-4 mb-md-0 mb-5 mx-auto">
+          <div className="testimonial">
+            <p className="font-weight-normal dark-grey-text">
+              <i className="blockquote pr-2">
+                We were having difficulty with our daughter in the Belmont
+                Public Schools.  Margie used her advocacy skills to ensure our
+                daughter get the correct services.  She helped us to find the
+                right expert to evaluate our daughter and obtain an IEP from the
+                school.  She worked with our Team to build attainable IEP
+                goals.  She introduced us to many useful resources.  Margie is
+                an inspriation to me.  She really cares.  It isn't just a job
+                for her.
+              </i>
+            </p>
+            <h5 className="font-weight-bold blue-text my-3">
+              -- Belmont High School Parent
+            </h5>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

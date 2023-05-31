@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
       <div className="container">
         <div className="row mx-auto">
           <h1 className="mx-auto text-center">
-            Special Education Advocacy 4 Kids
+            Margaret Mikulskis Advocacy
           </h1>
         </div>
         <div className="row mx-auto">
