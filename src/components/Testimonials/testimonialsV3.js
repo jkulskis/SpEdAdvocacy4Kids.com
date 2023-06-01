@@ -167,6 +167,27 @@ export default function testimonialsV3() {
           <div className="testimonial">
             <p className="font-weight-normal dark-grey-text">
               <i className="blockquote pr-2">
+                I am writing this note to express my deepest gratitude for your
+                advocacy help for Neyden. The Tavares family is very pleased and
+                grateful for your help with Neyden's education, it has not been
+                easy but with your strong ability and personality, we have hope
+                and believe. We still did not give up because of your support
+                and knowledge (the school hardly wanted to understand Neyden's
+                complex medical needs.) I sincerely believe that God will
+                duplicate more and more so that you can help other families to
+                be successful.
+              </i>
+            </p>
+            <h5 className="font-weight-bold blue-text my-3">Sandra Tavares</h5>
+            <h6 className="blue-text my-3">Brockton Parent</h6>
+          </div>
+        </div>
+      </div>
+      <div className="row text-center pb-5">
+        <div className="col-md-4 mb-md-0 mb-5 mx-auto">
+          <div className="testimonial">
+            <p className="font-weight-normal dark-grey-text">
+              <i className="blockquote pr-2">
                 We were having difficulty with our daughter in the Belmont
                 Public Schools.  Margie used her advocacy skills to ensure our
                 daughter get the correct services.  She helped us to find the
