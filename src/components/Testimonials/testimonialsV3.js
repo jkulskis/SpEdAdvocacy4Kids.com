@@ -167,15 +167,15 @@ export default function testimonialsV3() {
           <div className="testimonial">
             <p className="font-weight-normal dark-grey-text">
               <i className="blockquote pr-2">
-                I am writing this note to express my deepest gratitude for your
-                advocacy help for Neyden. The Tavares family is very pleased and
-                grateful for your help with Neyden's education, it has not been
-                easy but with your strong ability and personality, we have hope
-                and believe. We still did not give up because of your support
-                and knowledge (the school hardly wanted to understand Neyden's
-                complex medical needs.) I sincerely believe that God will
-                duplicate more and more so that you can help other families to
-                be successful.
+                Margie, I am writing this note to express my deepest gratitude for
+                your advocacy help for Neyden. The Tavares family is very
+                pleased and grateful for your help with Neyden's education, it
+                has not been easy but with your strong ability and personality,
+                we have hope and believe. We still did not give up because of
+                your support and knowledge (the school hardly wanted to
+                understand Neyden's complex medical needs.) I sincerely believe
+                that God will duplicate more and more so that you can help other
+                families to be successful.
               </i>
             </p>
             <h5 className="font-weight-bold blue-text my-3">Sandra Tavares</h5>
